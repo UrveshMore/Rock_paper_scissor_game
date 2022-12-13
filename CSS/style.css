@@ -1,0 +1,41 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 110vh;
+    color: rgba(31, 2, 2, 0.943);
+    background-image: linear-gradient(to top left, #4a4a4a 0%, #ffffff 100%);
+
+}
+
+.rock,
+.paper,
+.scissors,
+.lizard,
+.spock {
+
+    background-image: linear-gradient(to top left, #8f00d1a6 0%, #e223c9 100%);
+    border-radius: 50%;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.769);
+}
+
+
+.rock:hover,
+.paper:hover,
+.scissors:hover,
+.lizard:hover,
+.spock:hover {
+    padding: 20px;
+    border: rgba(0, 0, 0, 0.635) solid 5px;
+
+}
+
+.whoWin {
+    border: 2px solid;
+    padding: 10px 50px 10px 50px;
+
+}
+
+.hidden {
+    display: none;
+}
